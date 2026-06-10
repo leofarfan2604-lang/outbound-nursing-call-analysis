@@ -76,16 +76,23 @@ df = df[df['screening_completed_ind'] != 's']
 ### 1 — Outreach Success Rate
 ~**72% of patients** who received a call attempt were successfully reached.
 
+![Patients reached successfully](images/image1_patients_reached_successfully.png)
+
 ### 2 — Screening Load vs. Compliance
 Patients with **1 assigned screening had 100% completion**. Beyond that, no meaningful correlation between screening volume and compliance was found.
 
+![Completion rate by screening load](images/image2_completion_rate_by_screening_load.png)
+
 ### 3 — Impact of Calls on Compliance ⭐
-The **"Never Called" group showed the highest compliance** — outperforming both contacted and failed-attempt groups by a meaningful margin. These patients likely had screenings pre-scheduled from prior visits, making outreach redundant for them.
+The **"Never Called" group showed the highest compliance** — outperforming both contacted and failed-attempt groups by a meaningful margin.
+
+![Screening completion rate by call status](images/image3_screening_completion_rate_by_call_status.png)
 
 ### 4 — Impact by Screening Type
-- **OMW (Osteoporosis):** The **only screening where calls positively drive compliance.** Women over 50 respond well to personal phone contact.
-- **EED (Early Elective Delivery):** Non-contacted patients showed *higher* compliance — calls appear ineffective or counterproductive here.
-- **BCS, COL, CBP:** Negligible difference between contacted and non-contacted groups.
+![Impact of outreach by screening type](images/image4_impact_of_outreach_by_screening_type.png)
+
+- **OMW (Osteoporosis):** The **only screening where calls positively drive compliance.**
+- **EED (Early Elective Delivery):** Non-contacted patients showed *higher* compliance...
 
 ---
 
