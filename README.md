@@ -81,15 +81,15 @@ df = df[df['screening_completed_ind'] != 's']
 ### 2 — Screening Load vs. Compliance
 Patients with **1 assigned screening had 100% completion**. Beyond that, no meaningful correlation between screening volume and compliance was found.
 
-![Completion rate by screening load](images/image2_completion_rate_by_screening_load.png)
+![Completion rate by screening load](images/completion_rate_by_screening_load.png)
 
 ### 3 — Impact of Calls on Compliance ⭐
 The **"Never Called" group showed the highest compliance** — outperforming both contacted and failed-attempt groups by a meaningful margin.
 
-![Screening completion rate by call status](images/image3_screening_completion_rate_by_call_status.png)
+![Screening completion rate by call status](images/screening_completion_rate_by_call_status.png)
 
 ### 4 — Impact by Screening Type
-![Impact of outreach by screening type](images/image4_impact_of_outreach_by_screening_type.png)
+![Impact of outreach by screening type](images/completion_rate_by_screening_type_and_calling_status.png)
 
 - **OMW (Osteoporosis):** The **only screening where calls positively drive compliance.**
 - **EED (Early Elective Delivery):** Non-contacted patients showed *higher* compliance...
