@@ -76,7 +76,7 @@ df = df[df['screening_completed_ind'] != 's']
 ### 1 — Outreach Success Rate
 ~**72% of patients** who received a call attempt were successfully reached.
 
-![Patients reached successfully](images/patients_reached_successfully.png)
+![Patients reached successfully](images/patients_reached_succesfully.png)
 
 ### 2 — Screening Load vs. Compliance
 Patients with **1 assigned screening had 100% completion**. Beyond that, no meaningful correlation between screening volume and compliance was found.
