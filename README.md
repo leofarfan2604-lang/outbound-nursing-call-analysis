@@ -7,7 +7,7 @@
 
 ## 📌 Project Overview
 
-**Universal Healthy Humans Company (UHHC)** is a partially government-funded healthcare company that runs an outbound call center staffed by nurses. Their goal is to improve compliance rates for five preventive health screenings among patients over 50. This project evaluates whether their phone outreach strategy is actually working — and where to focus efforts going forward.
+**Universal Healthy Humans Company (UHHC)** is a partially government-funded healthcare company that runs an outbound call center staffed by nurses. Their goal is to improve compliance rates for five screening programs.
 
 **Business questions answered:**
 - How many patients were reached successfully?
@@ -76,7 +76,7 @@ df = df[df['screening_completed_ind'] != 's']
 ### 1 — Outreach Success Rate
 ~**72% of patients** who received a call attempt were successfully reached.
 
-![Patients reached successfully](images/patients_reached_successfully.png)
+![Patients reached successfully](images/image1_patients_reached_successfully.png)
 
 ### 2 — Screening Load vs. Compliance
 Patients with **1 assigned screening had 100% completion**. Beyond that, no meaningful correlation between screening volume and compliance was found.
@@ -110,12 +110,53 @@ The **"Never Called" group showed the highest compliance** — outperforming bot
 
 ---
 
-## ✅ Recommendations
+## ✅ Conclusiones & Recomendaciones
 
-1. **Prioritize OMW outreach** — highest measurable ROI for nursing team calls
-2. **Redirect EED resources** — switch to digital channels (SMS, email) for this demographic
-3. **Diversify contact channels** for CBP, COL, BCS — lower cost, similar results
-4. **Investigate the Never Called group** — understanding their self-service pathway could unlock a scalable model
+### 📈 Hallazgos Principales
+
+1. **Tasa de alcance exitosa del 72%**
+   - La mayoría de los pacientes contactados respondieron positivamente a los esfuerzos de alcance
+   - Esto proporciona una base sólida para optimizar futuras campañas
+
+2. **Carga de screening vs. Cumplimiento**
+   - Los pacientes con 1 screening asignado tienen 100% de cumplimiento
+   - No hay correlación significativa entre múltiples screenings y el cumplimiento
+   - Esto sugiere que la complejidad no es el factor limitante
+
+3. **Impacto paradójico de las llamadas** ⭐
+   - El grupo "Nunca Llamado" mostró el cumplimiento más alto
+   - Las llamadas pueden tener un efecto neutro o negativo en ciertos grupos demográficos
+   - Esto indica que el canal de comunicación es crítico
+
+4. **Variabilidad por tipo de screening**
+   - **OMW:** Única screening donde las llamadas mejoran cumplimiento (+ROI)
+   - **EED:** Pacientes no contactados tienen mayor cumplimiento
+   - **CBP/COL/BCS:** Impacto negligible de las llamadas
+
+### 🎯 Recomendaciones Estratégicas
+
+1. **Priorizar OMW (Osteoporosis)**
+   - Concentrar recursos de enfermería en este screening
+   - Demuestra el ROI más medible para llamadas outbound
+
+2. **Cambiar estrategia para EED**
+   - Reemplazar llamadas telefónicas con canales digitales (SMS, email)
+   - Mejor alineado con preferencias de este grupo demográfico
+
+3. **Diversificar canales para CBP, COL, BCS**
+   - Explorar alternativas de menor costo (SMS, email, notificaciones digitales)
+   - Resultados similares con inversión reducida
+
+4. **Investigar el grupo "Nunca Llamado"**
+   - Entender su camino de auto-servicio podría desbloquear un modelo escalable
+   - Identificar barreras y facilitadores de cumplimiento independientes
+
+### 💡 Impacto Empresarial Esperado
+
+- **Reducción de costos:** Realinear recursos de enfermería (~35-40% potencial)
+- **Mejora de cumplimiento:** Mantener/aumentar tasas generales de cumplimiento
+- **Escalabilidad:** Modelos digitales más fáciles de escalar que llamadas manuales
+- **Satisfacción del paciente:** Ofrecer canales de comunicación preferidos
 
 ---
 
@@ -128,10 +169,10 @@ outbound-nursing-call-analysis/
 ├── data/
 │   └── DA_outbound_call_nursing_team.csv
 └── images/
-    ├── patients_reached_successfully.png
-    ├── completion_rate_by_screening_load.png
-    ├── screening_completion_rate_by_call_status.png
-    └── impact_of_outreach_by_screening_type.png
+    ├── image1_patients_reached_successfully.png
+    ├── image2_completion_rate_by_screening_load.png
+    ├── image3_screening_completion_rate_by_call_status.png
+    └── image4_impact_of_outreach_by_screening_type.png
 ```
 
 ---
